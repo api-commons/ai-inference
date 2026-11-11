@@ -1,0 +1,49 @@
+context: ai-inference
+name: AI Inference and Deployments
+intro: >-
+  The common inference-platform vocabulary -- the deployments and endpoints a model is served from,
+  and the GPU instances behind them -- distilled from the APIs that already exist.
+tags: [Inference, AI Infrastructure, GPU Cloud, Model Serving, GPU, AI Compute, Foundation Models]
+
+envelope: [_links, _pagination, _results, data, success, errors, count, total, page, meta, links, result, results,
+           value, next, previous, has_more, message, page_info, cursor, total_count, per_page, total_pages, object]
+
+common_fields:
+  id: [uuid, guid, external_id, deployment_id, endpoint_id, instance_id, pod_id]
+  created_at: [created, created_date, create_time, creation_time]
+  updated_at: [updated, modified_at, update_time]
+  status: [state]
+  name: [title, display_name]
+
+concepts:
+  deployment:
+    segments: [deployments, deployment, endpoints, endpoint, inference_endpoints, serving_endpoints, services@inference|serving]
+    aliases:
+      model: [model_id, model_name, base_model]
+      instance_type: [hardware, gpu_type, accelerator, gpu, compute]
+      min_replicas: [min_workers, min_instances, scaling_min]
+      max_replicas: [max_workers, max_instances, scaling_max]
+      url: [endpoint_url, endpoint, uri]
+  gpu_instance:
+    path: /gpu-instances
+    segments: [instances, instance, pods, pod, machines, gpus, nodes@gpu|cloud]
+    aliases:
+      gpu_type: [gpu, gpu_type_id, accelerator, instance_type, machine_type]
+      gpu_count: [num_gpus, gpus, gpu_quantity]
+      region: [location, zone, datacenter]
+      price_per_hour: [cost_per_hr, hourly_price, price, cost_per_hour]
+
+findings:
+  - >-
+    Deployments agree on status, created_at, id and name; the model served and the instance type each
+    reach 45%. The endpoint URL reaches 30%, because many platforms route by model name instead.
+  - >-
+    GPU instances agree on status, id, created_at, name and region; gpu_type reaches 46%. A pod, a
+    machine and an instance are the same rentable unit.
+decisions:
+  - >-
+    gpu_instance is a role name, because instance is used in cloud-infrastructure, where it is the
+    general virtual machine.
+  - >-
+    Inference calls themselves (completions, embeddings) are left to api-commons/models; this context
+    covers the infrastructure they run on.

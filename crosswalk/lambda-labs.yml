@@ -1,0 +1,22 @@
+provider: lambda-labs
+apis_io: https://apis.io/providers/lambda-labs/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  gpu_instance:
+    path_segment:
+    - instances
+    properties:
+      status: status
+      id: id
+      name: name
+      region: region
+      gpu_type: instance_type
+      ip: ip
+      tags: tags
+      hostname: hostname
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/lambda-labs-openapi.json#GET /api/v1/instances
+    - openapi/_original/lambda-labs-openapi.json#GET /api/v1/instances/{id}
+    - openapi/_original/lambda-labs-openapi.json#POST /api/v1/instances/{id}

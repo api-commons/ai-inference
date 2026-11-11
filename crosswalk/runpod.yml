@@ -1,0 +1,27 @@
+provider: runpod
+apis_io: https://apis.io/providers/runpod/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  deployment:
+    path_segment:
+    - endpoints
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/runpod-openapi.yml#DELETE /endpoints/{endpointId}
+    - openapi/_original/runpod-openapi.yml#GET /billing/endpoints
+    - openapi/_original/runpod-openapi.yml#GET /endpoints
+    - openapi/_original/runpod-openapi.yml#GET /endpoints/{endpointId}
+    - openapi/_original/runpod-openapi.yml#PATCH /endpoints/{endpointId}
+  gpu_instance:
+    path_segment:
+    - pods
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/runpod-openapi.yml#DELETE /pods/{podId}
+    - openapi/_original/runpod-openapi.yml#GET /billing/pods
+    - openapi/_original/runpod-openapi.yml#GET /pods
+    - openapi/_original/runpod-openapi.yml#GET /pods/{podId}
+    - openapi/_original/runpod-openapi.yml#PATCH /pods/{podId}

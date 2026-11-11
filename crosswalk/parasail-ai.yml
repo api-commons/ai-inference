@@ -1,0 +1,22 @@
+provider: parasail-ai
+apis_io: https://apis.io/providers/parasail-ai/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  deployment:
+    path_segment:
+    - deployments
+    properties:
+      status: status
+      created_at: created_at
+      id: deployment_id
+      model: modelName
+      updated_at: updated_at
+      url: endpoint_url
+    core_coverage: 0.75
+    evidence:
+    - openapi/_original/parasail-dedicated-api-openapi.yml#DELETE /dedicated/deployments/{deployment_id}
+    - openapi/_original/parasail-dedicated-api-openapi.yml#GET /dedicated/deployments
+    - openapi/_original/parasail-dedicated-api-openapi.yml#GET /dedicated/deployments/{deployment_id}
+    - openapi/_original/parasail-dedicated-api-openapi.yml#POST /dedicated/deployments
+    - openapi/_original/parasail-dedicated-api-openapi.yml#PUT /dedicated/deployments/{deployment_id}

@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/ai-inference/main/schema/deployment.json",
+  "title": "Deployment",
+  "description": "The common deployment in AI Inference and Deployments, distilled from 20 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.75,
+      "x-commons-providers": 15,
+      "x-commons-spellings": [
+        "status",
+        "state"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.7,
+      "x-commons-providers": 14,
+      "x-commons-spellings": [
+        "created_at",
+        "createdAt",
+        "createTime"
+      ],
+      "format": "date-time"
+    },
+    "id": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.6,
+      "x-commons-providers": 12,
+      "x-commons-spellings": [
+        "id",
+        "instanceId",
+        "deployment_id"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.6,
+      "x-commons-providers": 12,
+      "x-commons-spellings": [
+        "name",
+        "displayName",
+        "display_name"
+      ]
+    },
+    "instance_type": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.45,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "hardware",
+        "gpu_type",
+        "compute",
+        "gpuType",
+        "accelerator",
+        "gpu"
+      ]
+    },
+    "model": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.45,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "model",
+        "model_id",
+        "baseModel",
+        "modelName",
+        "base_model",
+        "model_name"
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.35,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "updated_at",
+        "updateTime",
+        "updatedAt"
+      ],
+      "format": "date-time"
+    },
+    "url": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.3,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "url",
+        "endpoint_url"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.25,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "description"
+      ]
+    },
+    "project_id": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.2,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "project_id",
+        "projectId"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.2,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "type"
+      ]
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "x-commons": {
+    "context": "ai-inference",
+    "concept": "deployment",
+    "providers": 20,
+    "generated": "2026-11-11",
+    "version": "0.1.0-draft.20261111",
+    "status": "draft"
+  }
+}

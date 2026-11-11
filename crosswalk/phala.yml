@@ -1,0 +1,19 @@
+provider: phala
+apis_io: https://apis.io/providers/phala/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  gpu_instance:
+    path_segment:
+    - instances
+    properties:
+      status: status
+      id:
+      - id
+      - instance_id
+      created_at: created_at
+      name: name
+      memory: memory
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/phala-cloud-api-openapi.json#POST /api/v1/apps/{app_id}/instances

@@ -1,0 +1,402 @@
+context: ai-inference
+name: AI Inference and Deployments
+generated: '2026-11-11'
+version: 0.1.0-draft.20261111
+status: draft
+cohort:
+  tags:
+  - Inference
+  - AI Infrastructure
+  - GPU Cloud
+  - Model Serving
+  - GPU
+  - AI Compute
+  - Foundation Models
+  providers_with_harvested_openapi: 172
+thresholds:
+  core: 0.5
+  extended: 0.2
+  min_providers: 3
+excluded: {}
+duplicates: {}
+shared_specs: {}
+concepts:
+  deployment:
+    segments_seen:
+      deployments: 15
+      endpoints: 7
+      endpoint: 3
+      deployment: 1
+    providers_exposing: 23
+    providers_with_readable_schema: 20
+    operations:
+    - operation: GET collection
+      providers: 19
+      share: 0.826
+      tier: core
+    - operation: POST collection
+      providers: 18
+      share: 0.783
+      tier: core
+    - operation: GET item
+      providers: 16
+      share: 0.696
+      tier: core
+    - operation: DELETE item
+      providers: 12
+      share: 0.522
+      tier: core
+    - operation: UPDATE item
+      providers: 9
+      share: 0.391
+      tier: extended
+    - operation: POST item
+      providers: 2
+      share: 0.087
+      tier: long-tail
+    - operation: DELETE collection
+      providers: 1
+      share: 0.043
+      tier: long-tail
+    - operation: UPDATE collection
+      providers: 1
+      share: 0.043
+      tier: long-tail
+    properties:
+    - name: status
+      tier: core
+      providers: 15
+      share: 0.75
+      type: string
+      spellings:
+      - status
+      - state
+    - name: created_at
+      tier: core
+      providers: 14
+      share: 0.7
+      type: string
+      spellings:
+      - created_at
+      - createdAt
+      - createTime
+    - name: id
+      tier: core
+      providers: 12
+      share: 0.6
+      type: string
+      spellings:
+      - id
+      - instanceId
+      - deployment_id
+    - name: name
+      tier: core
+      providers: 12
+      share: 0.6
+      type: string
+      spellings:
+      - name
+      - displayName
+      - display_name
+    - name: instance_type
+      tier: extended
+      providers: 9
+      share: 0.45
+      type: string
+      spellings:
+      - hardware
+      - gpu_type
+      - compute
+      - gpuType
+      - accelerator
+      - gpu
+    - name: model
+      tier: extended
+      providers: 9
+      share: 0.45
+      type: string
+      spellings:
+      - model
+      - model_id
+      - baseModel
+      - modelName
+      - base_model
+      - model_name
+    - name: updated_at
+      tier: extended
+      providers: 7
+      share: 0.35
+      type: string
+      spellings:
+      - updated_at
+      - updateTime
+      - updatedAt
+    - name: url
+      tier: extended
+      providers: 6
+      share: 0.3
+      type: string
+      spellings:
+      - url
+      - endpoint_url
+    - name: description
+      tier: extended
+      providers: 5
+      share: 0.25
+      type: string
+      spellings:
+      - description
+    - name: project_id
+      tier: extended
+      providers: 4
+      share: 0.2
+      type: string
+      spellings:
+      - project_id
+      - projectId
+    - name: type
+      tier: extended
+      providers: 4
+      share: 0.2
+      type: string
+      spellings:
+      - type
+    long_tail_count: 213
+    long_tail_sample:
+    - autoscaling
+    - created_by
+    - max_replicas
+    - min_replicas
+    - autoscaling_policy
+    - cluster
+    - deployment_name
+    - image
+    - manifest
+    - memory
+    - metadata
+    - owner
+    - port
+    - provider
+    - region
+    - replicas
+    - team_id
+    - version
+    - accelerator_count
+    - accelerator_type
+    - access_authorization
+    - account_id
+    - active_duration
+    - active_model_version
+    - advanced
+    - allocated_at
+    - annotations
+    - app_id
+    - args
+    - auto_tune
+    - autoscaling_cooldown
+    - autoscaling_max
+    - autoscaling_min
+    - availability
+    - availability_zone
+    - available_replicas
+    - batch_size
+    - bento
+    - canary
+    - capability
+  gpu_instance:
+    segments_seen:
+      instances: 18
+      gpus: 6
+      pods: 4
+      machines: 4
+      pod: 1
+    providers_exposing: 27
+    providers_with_readable_schema: 24
+    operations:
+    - operation: GET collection
+      providers: 26
+      share: 0.963
+      tier: core
+    - operation: GET item
+      providers: 20
+      share: 0.741
+      tier: core
+    - operation: DELETE item
+      providers: 14
+      share: 0.519
+      tier: core
+    - operation: POST collection
+      providers: 14
+      share: 0.519
+      tier: core
+    - operation: UPDATE item
+      providers: 9
+      share: 0.333
+      tier: extended
+    - operation: UPDATE collection
+      providers: 2
+      share: 0.074
+      tier: long-tail
+    - operation: POST item
+      providers: 1
+      share: 0.037
+      tier: long-tail
+    properties:
+    - name: status
+      tier: core
+      providers: 21
+      share: 0.875
+      type: string
+      spellings:
+      - status
+      - state
+    - name: id
+      tier: core
+      providers: 19
+      share: 0.792
+      type: string
+      spellings:
+      - id
+      - pod_id
+      - instance_id
+    - name: created_at
+      tier: core
+      providers: 16
+      share: 0.667
+      type: string
+      spellings:
+      - created_at
+      - createdAt
+      - createTime
+      - created
+    - name: name
+      tier: core
+      providers: 16
+      share: 0.667
+      type: string
+      spellings:
+      - name
+      - display_name
+    - name: region
+      tier: core
+      providers: 15
+      share: 0.625
+      type: string
+      spellings:
+      - region
+      - location
+      - datacenter
+    - name: gpu_type
+      tier: extended
+      providers: 11
+      share: 0.458
+      type: string
+      spellings:
+      - instance_type
+      - gpu
+      - gpu_type
+      - gpuType
+    - name: ip
+      tier: extended
+      providers: 8
+      share: 0.333
+      type: string
+      spellings:
+      - ip
+    - name: updated_at
+      tier: extended
+      providers: 7
+      share: 0.292
+      type: string
+      spellings:
+      - updated_at
+      - updatedAt
+      - updated
+    - name: gpu_count
+      tier: extended
+      providers: 6
+      share: 0.25
+      type: integer
+      spellings:
+      - gpu_count
+      - gpuCount
+      - num_gpus
+    - name: memory
+      tier: extended
+      providers: 6
+      share: 0.25
+      type: string
+      spellings:
+      - memory
+    - name: tags
+      tier: extended
+      providers: 6
+      share: 0.25
+      type: array
+      spellings:
+      - tags
+    - name: hostname
+      tier: extended
+      providers: 5
+      share: 0.208
+      type: string
+      spellings:
+      - hostname
+    - name: price_per_hour
+      tier: extended
+      providers: 5
+      share: 0.208
+      type: number
+      spellings:
+      - price_per_hour
+      - cost_per_hour
+      - hourly_price
+    - name: type
+      tier: extended
+      providers: 5
+      share: 0.208
+      type: string
+      spellings:
+      - type
+    long_tail_count: 374
+    long_tail_sample:
+    - image
+    - jupyter_token
+    - metadata
+    - project_id
+    - vcpu
+    - app_id
+    - disk
+    - disks
+    - jupyter_url
+    - label
+    - private_ip
+    - regions
+    - ssh_port
+    - started_at
+    - storage
+    - template
+    - action
+    - available
+    - backups
+    - cluster_id
+    - completed_at
+    - cpu_cores
+    - deleted_at
+    - description
+    - duration
+    - features
+    - file_system_names
+    - gpu_memory
+    - hypervisor
+    - image_id
+    - instance_group_id
+    - is_spot
+    - machine_id
+    - maintenance_policy
+    - manufacturer
+    - os
+    - price_hr
+    - provider
+    - script_id
+    - ssh_host

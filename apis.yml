@@ -1,0 +1,48 @@
+aid: common-ai-inference
+name: AI Inference and Deployments
+type: Common
+description: 'The common AI Inference and Deployments vocabulary, distilled from the harvested OpenAPI of 172 providers
+  in APIs.io: shared operations, JSON Schema per concept with measured adoption, and a crosswalk from the common
+  names to each provider''s own.'
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Application Programming Interface
+- API
+- Inference
+- AI Infrastructure
+- GPU Cloud
+- Model Serving
+- Common Schema
+created: '2026-11-11'
+modified: '2026-11-11'
+url: https://raw.githubusercontent.com/api-commons/ai-inference/main/apis.yml
+specificationVersion: '0.20'
+apis:
+- aid: common-ai-inference:ai-inference
+  name: Common AI Inference and Deployments Interface
+  description: The AI Inference and Deployments interface the market already shares, measured.
+  humanURL: https://github.com/api-commons/ai-inference
+  tags:
+  - Inference
+  - AI Infrastructure
+  properties:
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-commons/ai-inference/main/openapi.yml
+  - type: Profile
+    url: https://raw.githubusercontent.com/api-commons/ai-inference/main/profile.yml
+  - type: Adopters
+    url: https://raw.githubusercontent.com/api-commons/ai-inference/main/adopters.yml
+  - type: Rules
+    url: https://raw.githubusercontent.com/api-commons/schema-commons/main/ruleset/schema-commons-naming.yaml
+  - type: JSONSchema
+    name: deployment
+    url: https://raw.githubusercontent.com/api-commons/ai-inference/main/schema/deployment.json
+  - type: JSONSchema
+    name: gpu_instance
+    url: https://raw.githubusercontent.com/api-commons/ai-inference/main/schema/gpu_instance.json
+common:
+- type: License
+  url: https://raw.githubusercontent.com/api-commons/ai-inference/main/LICENSE
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

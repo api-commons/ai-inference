@@ -1,0 +1,18 @@
+provider: mithril
+apis_io: https://apis.io/providers/mithril/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  gpu_instance:
+    path_segment:
+    - instances
+    properties:
+      status: status
+      created_at: created_at
+      name: name
+      region: region
+      gpu_type: instance_type
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/mithril-compute-openapi-original.json#GET /v2/instances
+    - openapi/_original/mithril-compute-openapi-original.json#PATCH /v2/instances

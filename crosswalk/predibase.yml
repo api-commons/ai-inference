@@ -1,0 +1,19 @@
+provider: predibase
+apis_io: https://apis.io/providers/predibase/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  deployment:
+    path_segment:
+    - deployments
+    properties:
+      status: status
+      name: name
+      instance_type: accelerator
+      model: base_model
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/predibase-openapi.yml#DELETE /deployments/{deploymentName}
+    - openapi/_original/predibase-openapi.yml#GET /deployments
+    - openapi/_original/predibase-openapi.yml#GET /deployments/{deploymentName}
+    - openapi/_original/predibase-openapi.yml#POST /deployments

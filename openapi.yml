@@ -1,0 +1,212 @@
+openapi: 3.1.0
+info:
+  title: AI Inference and Deployments (API Commons)
+  version: 0.1.0-draft.20261111
+  description: 'The common AI Inference and Deployments interface, distilled from the harvested OpenAPI of 172 providers
+    in the APIs.io catalog. Not a product: no one serves this API. It is the shape the market already shares, measured,
+    so that providers, agents and integrators can map to one vocabulary. See profile.yml.'
+  license:
+    name: CC BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+paths:
+  /deployments:
+    get:
+      operationId: listDeployments
+      summary: List deployments
+      tags:
+      - Deployments
+      x-commons-tier: core
+      x-commons-share: 0.826
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id001
+                  $ref: '#/components/schemas/Deployment'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createDeployment
+      summary: Create a deployment
+      tags:
+      - Deployments
+      x-commons-tier: core
+      x-commons-share: 0.783
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+  /deployments/{deployment_id}:
+    parameters:
+    - $ref: '#/components/parameters/deployment_id'
+    get:
+      operationId: getDeployment
+      summary: Get a deployment
+      tags:
+      - Deployments
+      x-commons-tier: core
+      x-commons-share: 0.696
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+    delete:
+      operationId: deleteDeployment
+      summary: Delete a deployment
+      tags:
+      - Deployments
+      x-commons-tier: core
+      x-commons-share: 0.522
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+    patch:
+      operationId: updateDeployment
+      summary: Update a deployment
+      tags:
+      - Deployments
+      x-commons-tier: extended
+      x-commons-share: 0.391
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+  /gpu-instances:
+    get:
+      operationId: listGpuInstances
+      summary: List gpu instances
+      tags:
+      - Gpu Instances
+      x-commons-tier: core
+      x-commons-share: 0.963
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id002
+                  $ref: '#/components/schemas/GpuInstance'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createGpuInstance
+      summary: Create a gpu instance
+      tags:
+      - Gpu Instances
+      x-commons-tier: core
+      x-commons-share: 0.519
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id002
+  /gpu-instances/{gpu_instance_id}:
+    parameters:
+    - $ref: '#/components/parameters/gpu_instance_id'
+    get:
+      operationId: getGpuInstance
+      summary: Get a gpu instance
+      tags:
+      - Gpu Instances
+      x-commons-tier: core
+      x-commons-share: 0.741
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+    delete:
+      operationId: deleteGpuInstance
+      summary: Delete a gpu instance
+      tags:
+      - Gpu Instances
+      x-commons-tier: core
+      x-commons-share: 0.519
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+    patch:
+      operationId: updateGpuInstance
+      summary: Update a gpu instance
+      tags:
+      - Gpu Instances
+      x-commons-tier: extended
+      x-commons-share: 0.333
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id002
+components:
+  schemas:
+    Deployment:
+      $ref: ./schema/deployment.json
+    GpuInstance:
+      $ref: ./schema/gpu_instance.json
+  parameters:
+    deployment_id:
+      name: deployment_id
+      in: path
+      required: true
+      schema:
+        type: string
+    gpu_instance_id:
+      name: gpu_instance_id
+      in: path
+      required: true
+      schema:
+        type: string

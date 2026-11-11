@@ -1,0 +1,20 @@
+provider: shadeform
+apis_io: https://apis.io/providers/shadeform/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  gpu_instance:
+    path_segment:
+    - instances
+    properties:
+      status: status
+      id: id
+      created_at: created_at
+      name: name
+      region: region
+      ip: ip
+      tags: tags
+      price_per_hour: hourly_price
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/shadeform-openapi.yml#GET /instances

@@ -1,0 +1,20 @@
+provider: lambda
+apis_io: https://apis.io/providers/lambda/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  gpu_instance:
+    path_segment:
+    - instances
+    properties:
+      status: status
+      id: id
+      name: name
+      region: region
+      gpu_type: instance_type
+      ip: ip
+      hostname: hostname
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/lambda-cloud-api-openapi.yml#GET /instances
+    - openapi/_original/lambda-cloud-api-openapi.yml#GET /instances/{id}

@@ -1,0 +1,21 @@
+provider: fastgpu
+apis_io: https://apis.io/providers/fastgpu/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  gpu_instance:
+    path_segment:
+    - instances
+    - gpus
+    properties:
+      status: status
+      id: id
+      created_at: created_at
+      gpu_type: gpu
+      gpu_count: gpu_count
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/fastgpu-api-openapi.json#DELETE /api/v1/router/instances/{id}
+    - openapi/_original/fastgpu-api-openapi.json#GET /api/v1/gpus
+    - openapi/_original/fastgpu-api-openapi.json#GET /api/v1/router/instances
+    - openapi/_original/fastgpu-api-openapi.json#GET /api/v1/router/instances/{id}

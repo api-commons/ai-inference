@@ -1,0 +1,12 @@
+provider: beam-cloud
+apis_io: https://apis.io/providers/beam-cloud/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  deployment:
+    path_segment:
+    - endpoint
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/beam-cloud-openapi.yml#POST /endpoint/{name}

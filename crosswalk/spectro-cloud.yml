@@ -1,0 +1,30 @@
+provider: spectro-cloud
+apis_io: https://apis.io/providers/spectro-cloud/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  deployment:
+    path_segment:
+    - deployment
+    - endpoints
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/spectro-cloud-palette-openapi.json#POST /v1/dashboard/spectroclusters/{uid}/workloads/deployment
+    - openapi/_original/spectro-cloud-palette-openapi.json#POST /v1/dashboard/workspaces/{uid}/spectroclusters/workloads/deployment
+    - openapi/_original/spectro-cloud-palette-openapi.json#PUT /v1/spectroclusters/{uid}/status/endpoints
+    - openapi/_original/spectrocloud-palette.yaml#POST /v1/dashboard/spectroclusters/{uid}/workloads/deployment
+    - openapi/_original/spectrocloud-palette.yaml#POST /v1/dashboard/workspaces/{uid}/spectroclusters/workloads/deployment
+  gpu_instance:
+    path_segment:
+    - machines
+    - pod
+    properties:
+      status: status
+    core_coverage: 0.2
+    evidence:
+    - openapi/_original/spectro-cloud-palette-openapi.json#DELETE /v1/cloudconfigs/aks/{configUid}/machinePools/{machinePoolName}/machines/{machineUid}
+    - openapi/_original/spectro-cloud-palette-openapi.json#DELETE /v1/cloudconfigs/apache-cloudstack/{configUid}/machinePools/{machinePoolName}/machines/{machineUid}
+    - openapi/_original/spectro-cloud-palette-openapi.json#DELETE /v1/cloudconfigs/aws/{configUid}/machinePools/{machinePoolName}/machines/{machineUid}
+    - openapi/_original/spectro-cloud-palette-openapi.json#DELETE /v1/cloudconfigs/azure/{configUid}/machinePools/{machinePoolName}/machines/{machineUid}
+    - openapi/_original/spectro-cloud-palette-openapi.json#DELETE /v1/cloudconfigs/cloudTypes/{cloudType}/{configUid}/machinePools/{machinePoolName}/machines/{machineUid}

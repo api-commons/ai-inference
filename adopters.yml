@@ -1,0 +1,217 @@
+context: ai-inference
+generated: '2026-11-11'
+adopters:
+- provider: advanced-micro-devices
+  apis_io: https://apis.io/providers/advanced-micro-devices/
+  crosswalk: crosswalk/advanced-micro-devices.yml
+  concepts:
+  - gpu_instance
+- provider: akash
+  apis_io: https://apis.io/providers/akash/
+  crosswalk: crosswalk/akash.yml
+  concepts:
+  - deployment
+- provider: aleph-alpha
+  apis_io: https://apis.io/providers/aleph-alpha/
+  crosswalk: crosswalk/aleph-alpha.yml
+  concepts:
+  - deployment
+  - gpu_instance
+- provider: armada
+  apis_io: https://apis.io/providers/armada/
+  crosswalk: crosswalk/armada.yml
+  concepts:
+  - deployment
+- provider: beam-cloud
+  apis_io: https://apis.io/providers/beam-cloud/
+  crosswalk: crosswalk/beam-cloud.yml
+  concepts:
+  - deployment
+- provider: bentoml
+  apis_io: https://apis.io/providers/bentoml/
+  crosswalk: crosswalk/bentoml.yml
+  concepts:
+  - deployment
+  - gpu_instance
+- provider: centml
+  apis_io: https://apis.io/providers/centml/
+  crosswalk: crosswalk/centml.yml
+  concepts:
+  - deployment
+- provider: crusoe
+  apis_io: https://apis.io/providers/crusoe/
+  crosswalk: crosswalk/crusoe.yml
+  concepts:
+  - deployment
+  - gpu_instance
+- provider: cudo-compute
+  apis_io: https://apis.io/providers/cudo-compute/
+  crosswalk: crosswalk/cudo-compute.yml
+  concepts:
+  - gpu_instance
+- provider: datacrunch
+  apis_io: https://apis.io/providers/datacrunch/
+  crosswalk: crosswalk/datacrunch.yml
+  concepts:
+  - deployment
+  - gpu_instance
+- provider: dedaluslabs
+  apis_io: https://apis.io/providers/dedaluslabs/
+  crosswalk: crosswalk/dedaluslabs.yml
+  concepts:
+  - gpu_instance
+- provider: fastgpu
+  apis_io: https://apis.io/providers/fastgpu/
+  crosswalk: crosswalk/fastgpu.yml
+  concepts:
+  - gpu_instance
+- provider: fireworks-ai
+  apis_io: https://apis.io/providers/fireworks-ai/
+  crosswalk: crosswalk/fireworks-ai.yml
+  concepts:
+  - deployment
+- provider: fluidstack
+  apis_io: https://apis.io/providers/fluidstack/
+  crosswalk: crosswalk/fluidstack.yml
+  concepts:
+  - gpu_instance
+- provider: friendliai
+  apis_io: https://apis.io/providers/friendliai/
+  crosswalk: crosswalk/friendliai.yml
+  concepts:
+  - deployment
+- provider: hugging-face
+  apis_io: https://apis.io/providers/hugging-face/
+  crosswalk: crosswalk/hugging-face.yml
+  concepts:
+  - deployment
+- provider: jarvislabs
+  apis_io: https://apis.io/providers/jarvislabs/
+  crosswalk: crosswalk/jarvislabs.yml
+  concepts:
+  - gpu_instance
+- provider: koyeb
+  apis_io: https://apis.io/providers/koyeb/
+  crosswalk: crosswalk/koyeb.yml
+  concepts:
+  - deployment
+  - gpu_instance
+- provider: lambda
+  apis_io: https://apis.io/providers/lambda/
+  crosswalk: crosswalk/lambda.yml
+  concepts:
+  - gpu_instance
+- provider: lambda-labs
+  apis_io: https://apis.io/providers/lambda-labs/
+  crosswalk: crosswalk/lambda-labs.yml
+  concepts:
+  - gpu_instance
+- provider: linode
+  apis_io: https://apis.io/providers/linode/
+  crosswalk: crosswalk/linode.yml
+  concepts:
+  - deployment
+  - gpu_instance
+- provider: mithril
+  apis_io: https://apis.io/providers/mithril/
+  crosswalk: crosswalk/mithril.yml
+  concepts:
+  - gpu_instance
+- provider: modelrush
+  apis_io: https://apis.io/providers/modelrush/
+  crosswalk: crosswalk/modelrush.yml
+  concepts:
+  - deployment
+- provider: nexgen-cloud
+  apis_io: https://apis.io/providers/nexgen-cloud/
+  crosswalk: crosswalk/nexgen-cloud.yml
+  concepts:
+  - deployment
+  - gpu_instance
+- provider: parasail-ai
+  apis_io: https://apis.io/providers/parasail-ai/
+  crosswalk: crosswalk/parasail-ai.yml
+  concepts:
+  - deployment
+- provider: phala
+  apis_io: https://apis.io/providers/phala/
+  crosswalk: crosswalk/phala.yml
+  concepts:
+  - gpu_instance
+- provider: predibase
+  apis_io: https://apis.io/providers/predibase/
+  crosswalk: crosswalk/predibase.yml
+  concepts:
+  - deployment
+- provider: prime-intellect
+  apis_io: https://apis.io/providers/prime-intellect/
+  crosswalk: crosswalk/prime-intellect.yml
+  concepts:
+  - gpu_instance
+- provider: qubrid-ai
+  apis_io: https://apis.io/providers/qubrid-ai/
+  crosswalk: crosswalk/qubrid-ai.yml
+  concepts:
+  - gpu_instance
+- provider: replicate
+  apis_io: https://apis.io/providers/replicate/
+  crosswalk: crosswalk/replicate.yml
+  concepts:
+  - deployment
+- provider: runai
+  apis_io: https://apis.io/providers/runai/
+  crosswalk: crosswalk/runai.yml
+  concepts:
+  - gpu_instance
+- provider: runcrate
+  apis_io: https://apis.io/providers/runcrate/
+  crosswalk: crosswalk/runcrate.yml
+  concepts:
+  - gpu_instance
+- provider: runpod
+  apis_io: https://apis.io/providers/runpod/
+  crosswalk: crosswalk/runpod.yml
+  concepts:
+  - deployment
+  - gpu_instance
+- provider: seekr
+  apis_io: https://apis.io/providers/seekr/
+  crosswalk: crosswalk/seekr.yml
+  concepts:
+  - deployment
+- provider: sfcompute
+  apis_io: https://apis.io/providers/sfcompute/
+  crosswalk: crosswalk/sfcompute.yml
+  concepts:
+  - gpu_instance
+- provider: shadeform
+  apis_io: https://apis.io/providers/shadeform/
+  crosswalk: crosswalk/shadeform.yml
+  concepts:
+  - gpu_instance
+- provider: spectro-cloud
+  apis_io: https://apis.io/providers/spectro-cloud/
+  crosswalk: crosswalk/spectro-cloud.yml
+  concepts:
+  - deployment
+  - gpu_instance
+- provider: superb-ai
+  apis_io: https://apis.io/providers/superb-ai/
+  crosswalk: crosswalk/superb-ai.yml
+  concepts:
+  - deployment
+- provider: together-ai
+  apis_io: https://apis.io/providers/together-ai/
+  crosswalk: crosswalk/together-ai.yml
+  concepts:
+  - deployment
+- provider: vast-ai
+  apis_io: https://apis.io/providers/vast-ai/
+  crosswalk: crosswalk/vast-ai.yml
+  concepts:
+  - gpu_instance
+- provider: vultr
+  apis_io: https://apis.io/providers/vultr/
+  crosswalk: crosswalk/vultr.yml
+  concepts:
+  - gpu_instance

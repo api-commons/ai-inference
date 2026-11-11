@@ -1,0 +1,19 @@
+provider: runai
+apis_io: https://apis.io/providers/runai/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  gpu_instance:
+    path_segment:
+    - pods
+    properties:
+      id: id
+      created_at: createdAt
+      name: name
+      ip: ip
+      updated_at: updatedAt
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/runai-openapi-original.json#GET /api/v1/workloads/inferences/revisions/{revisionId}/pods
+    - openapi/_original/runai-openapi-original.json#GET /api/v1/workloads/pods
+    - openapi/_original/runai-openapi-original.json#GET /api/v1/workloads/{workloadId}/pods

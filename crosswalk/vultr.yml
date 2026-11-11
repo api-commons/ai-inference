@@ -1,0 +1,21 @@
+provider: vultr
+apis_io: https://apis.io/providers/vultr/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  gpu_instance:
+    path_segment:
+    - instances
+    properties:
+      status: status
+      id: id
+      region: region
+      tags: tags
+      hostname: hostname
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/vultr-openapi.yml#DELETE /instances/{instance-id}
+    - openapi/_original/vultr-openapi.yml#GET /instances
+    - openapi/_original/vultr-openapi.yml#GET /instances/{instance-id}
+    - openapi/_original/vultr-openapi.yml#PATCH /instances/{instance-id}
+    - openapi/_original/vultr-openapi.yml#POST /instances

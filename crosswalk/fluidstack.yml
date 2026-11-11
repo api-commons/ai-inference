@@ -1,0 +1,21 @@
+provider: fluidstack
+apis_io: https://apis.io/providers/fluidstack/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  gpu_instance:
+    path_segment:
+    - instances
+    properties:
+      status: state
+      id: id
+      name: name
+      region: region
+      ip: ip
+      updated_at: updated_at
+      tags: tags
+      type: type
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/fluidstack-management-api-openapi.yml#GET /instances
+    - openapi/_original/fluidstack-management-api-openapi.yml#GET /instances/{id}

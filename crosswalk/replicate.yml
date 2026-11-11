@@ -1,0 +1,16 @@
+provider: replicate
+apis_io: https://apis.io/providers/replicate/
+context: ai-inference
+generated: '2026-11-11'
+concepts:
+  deployment:
+    path_segment:
+    - deployments
+    properties:
+      name: name
+      instance_type: hardware
+      model: model
+    core_coverage: 0.25
+    evidence:
+    - openapi/_original/replicate-openapi.yml#GET /deployments
+    - openapi/_original/replicate-openapi.yml#POST /deployments

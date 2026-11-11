@@ -1,0 +1,1222 @@
+[
+ {
+  "slug": "01-ai",
+  "specs": [
+   "openapi/_original/01-ai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "0g-labs",
+  "specs": [
+   "openapi/_original/0g-labs-router-openapi-original.yml",
+   "openapi/_original/0g-labs-router-openapi.yml"
+  ]
+ },
+ {
+  "slug": "adaptive-ml",
+  "specs": [
+   "openapi/_original/adaptive-ml-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "advanced-micro-devices",
+  "specs": [
+   "openapi/_original/amd-developer-cloud-api-openapi.yml",
+   "openapi/_original/amd-rocm-management-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ai21-labs",
+  "specs": [
+   "openapi/_original/ai21-labs-openapi.yml"
+  ]
+ },
+ {
+  "slug": "akash",
+  "specs": [
+   "openapi/_original/akash-blockchain-rest-api.yaml",
+   "openapi/_original/akash-console-deployment-api.json",
+   "openapi/_original/akash-notifications-api.json"
+  ]
+ },
+ {
+  "slug": "aleph-alpha",
+  "specs": [
+   "openapi/_original/aleph-alpha-pharia-data-openapi.json",
+   "openapi/_original/aleph-alpha-pharia-inference-openapi.json",
+   "openapi/_original/aleph-alpha-pharia-os-openapi.json",
+   "openapi/_original/aleph-alpha-pharia-search-openapi.json",
+   "openapi/_original/aleph-alpha-pharia-studio-openapi.json",
+   "openapi/_original/aleph-alpha-responses-openapi.json"
+  ]
+ },
+ {
+  "slug": "amazon-bedrock",
+  "specs": [
+   "openapi/_original/amazon-bedrock-openapi.yml",
+   "openapi/_original/amazon-bedrock-runtime-openapi.yml"
+  ]
+ },
+ {
+  "slug": "amazon-nova",
+  "specs": [
+   "openapi/_original/amazon-nova-openapi.yml"
+  ]
+ },
+ {
+  "slug": "amazon-sagemaker",
+  "specs": [
+   "openapi/_original/amazon-sagemaker-openapi.yml"
+  ]
+ },
+ {
+  "slug": "anthropic",
+  "specs": [
+   "openapi/_original/anthropic-admin-api-openapi.yml",
+   "openapi/_original/anthropic-api-openapi.json",
+   "openapi/_original/anthropic-managed-agents-api-openapi.yml",
+   "openapi/_original/anthropic-prompts-api-openapi.yml",
+   "openapi/_original/anthropic-usage-cost-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "arcee-ai",
+  "specs": [
+   "openapi/_original/arcee-ai-afm-openapi.json"
+  ]
+ },
+ {
+  "slug": "archestra",
+  "specs": [
+   "openapi/_original/archestra-openapi.json"
+  ]
+ },
+ {
+  "slug": "armada",
+  "specs": [
+   "openapi/_original/armada-orchestrator-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "atomadic-tech",
+  "specs": [
+   "openapi/_original/atomadic-tech-openapi.json",
+   "openapi/_original/atomadic-tech-openapi.yml"
+  ]
+ },
+ {
+  "slug": "azure-ai-foundry",
+  "specs": [
+   "openapi/_original/azure-ai-foundry-openapi.yml"
+  ]
+ },
+ {
+  "slug": "azure-openai",
+  "specs": [
+   "openapi/_original/azure-openai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "baseten",
+  "specs": [
+   "openapi/_original/baseten-llm-openapi.json",
+   "openapi/_original/baseten-messages-openapi.json"
+  ]
+ },
+ {
+  "slug": "beam-cloud",
+  "specs": [
+   "openapi/_original/beam-cloud-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bentoml",
+  "specs": [
+   "openapi/_original/bentoml-bentocloud-deployment-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "berrergate-com",
+  "specs": [
+   "openapi/_original/berrergate-com-openapi.json"
+  ]
+ },
+ {
+  "slug": "brick-blue",
+  "specs": [
+   "openapi/_original/brick-blue-openapi.json",
+   "openapi/_original/brick-blue-openapi.yml"
+  ]
+ },
+ {
+  "slug": "centml",
+  "specs": [
+   "openapi/_original/centml-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cerebras-systems",
+  "specs": [
+   "openapi/_original/cerebras-systems-chat-completions-openapi.yaml",
+   "openapi/_original/cerebras-systems-inference-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "cerebrium",
+  "specs": [
+   "openapi/_original/cerebrium-openapi.yml"
+  ]
+ },
+ {
+  "slug": "chamber",
+  "specs": [
+   "openapi/_original/chamber-openapi.yml"
+  ]
+ },
+ {
+  "slug": "chutes",
+  "specs": [
+   "openapi/_original/chutes-openapi.yml"
+  ]
+ },
+ {
+  "slug": "compresr",
+  "specs": [
+   "openapi/_original/compresr-openapi.json"
+  ]
+ },
+ {
+  "slug": "connskill-com",
+  "specs": [
+   "openapi/_original/connskill-com-openapi.json",
+   "openapi/_original/connskill-com-openapi.yml"
+  ]
+ },
+ {
+  "slug": "contextual-ai",
+  "specs": [
+   "openapi/_original/contextual-ai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "coreweave",
+  "specs": [
+   "openapi/_original/coreweave-openapi.yml"
+  ]
+ },
+ {
+  "slug": "crusoe",
+  "specs": [
+   "openapi/_original/crusoe-cloud-api-gateway-v1-openapi.json",
+   "openapi/_original/crusoe-cloud-api-gateway-v1alpha5-openapi.json"
+  ]
+ },
+ {
+  "slug": "cudo-compute",
+  "specs": [
+   "openapi/_original/cudo-compute-openapi.json"
+  ]
+ },
+ {
+  "slug": "databricks",
+  "specs": [
+   "openapi/_original/databricks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "datacrunch",
+  "specs": [
+   "openapi/_original/datacrunch-openapi.json"
+  ]
+ },
+ {
+  "slug": "dedaluslabs",
+  "specs": [
+   "openapi/_original/dedaluslabs-agents-openapi-original.json",
+   "openapi/_original/dedaluslabs-machines-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "deepinfra",
+  "specs": [
+   "openapi/_original/deepinfra-openapi.yml"
+  ]
+ },
+ {
+  "slug": "deepseek",
+  "specs": [
+   "openapi/_original/deepseek-chat-completion-api-openapi.yml",
+   "openapi/_original/deepseek-fim-completion-openapi.yml",
+   "openapi/_original/deepseek-lists-models-api-openapi.yml",
+   "openapi/_original/deepseek-user-balance-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "discountedtokens-api",
+  "specs": [
+   "openapi/_original/discountedtokens-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "doubao",
+  "specs": [
+   "openapi/_original/doubao-openapi.yml"
+  ]
+ },
+ {
+  "slug": "eridu",
+  "specs": [
+   "openapi/_original/eridu-wp-json-index.json"
+  ]
+ },
+ {
+  "slug": "evolutionaryscale",
+  "specs": [
+   "openapi/_original/evolutionaryscale-forge-esmc-api-openapi.yml",
+   "openapi/_original/evolutionaryscale-forge-folding-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "fal-ai",
+  "specs": [
+   "openapi/_original/fal-model-apis-openapi.yml",
+   "openapi/_original/fal-serverless-platform-api-openapi.yml",
+   "openapi/_original/fal-storage-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "fastgpu",
+  "specs": [
+   "openapi/_original/fastgpu-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "fastino-labs",
+  "specs": [
+   "openapi/_original/pioneer-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "featherless",
+  "specs": [
+   "openapi/_original/featherless-openapi.yml"
+  ]
+ },
+ {
+  "slug": "fireworks-ai",
+  "specs": [
+   "openapi/_original/fireworks-ai-anthropic-messages-openapi.json",
+   "openapi/_original/fireworks-ai-gateway-openapi.yml",
+   "openapi/_original/fireworks-ai-merged-openapi.yml",
+   "openapi/_original/fireworks-ai-responses-openapi.yml",
+   "openapi/_original/fireworks-ai-text-completion-openapi.yml"
+  ]
+ },
+ {
+  "slug": "fluence",
+  "specs": [
+   "openapi/_original/fluence-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "fluidstack",
+  "specs": [
+   "openapi/_original/fluidstack-management-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "forithmus",
+  "specs": [
+   "openapi/_original/forithmus-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "friendliai",
+  "specs": [
+   "openapi/_original/friendliai-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "furiosa",
+  "specs": [
+   "openapi/_original/furiosa-model-repository-v2.yaml",
+   "openapi/_original/furiosa-predict-v2.yaml"
+  ]
+ },
+ {
+  "slug": "gemini",
+  "specs": [
+   "openapi/_original/gemini-openapi.yml"
+  ]
+ },
+ {
+  "slug": "glhf-chat",
+  "specs": [
+   "openapi/_original/glhf-chat-openapi.yml"
+  ]
+ },
+ {
+  "slug": "gmi-cloud",
+  "specs": [
+   "openapi/_original/gmi-cloud-cluster-engine-openapi.yml",
+   "openapi/_original/gmi-cloud-idc-service-openapi.yml",
+   "openapi/_original/gmi-cloud-sandbox-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-gemini",
+  "specs": [
+   "openapi/_original/google-gemini-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-tensorflow",
+  "specs": [
+   "openapi/_original/tensorflow-serving-openapi.yml"
+  ]
+ },
+ {
+  "slug": "gradient",
+  "specs": [
+   "openapi/_original/gradient-cloud-openapi.yml"
+  ]
+ },
+ {
+  "slug": "groq",
+  "specs": [
+   "openapi/_original/groq-openapi.yml"
+  ]
+ },
+ {
+  "slug": "h-company",
+  "specs": [
+   "openapi/_original/h-company-computer-use-agents-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "hailuo-ai",
+  "specs": [
+   "openapi/_original/hailuo-ai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "hugging-face",
+  "specs": [
+   "openapi/_original/hugging-face-dataset-viewer-api.yml",
+   "openapi/_original/hugging-face-hub-api.yml",
+   "openapi/_original/hugging-face-inference-api.yml",
+   "openapi/_original/hugging-face-inference-endpoints-api.yml",
+   "openapi/_original/hugging-face-inference-providers-api.yml",
+   "openapi/_original/hugging-face-text-generation-inference-api.yml"
+  ]
+ },
+ {
+  "slug": "hyperbolic-ai",
+  "specs": [
+   "openapi/_original/hyperbolic-audio-generation-api-openapi.yml",
+   "openapi/_original/hyperbolic-chat-completions-api-openapi.yml",
+   "openapi/_original/hyperbolic-completions-api-openapi.yml",
+   "openapi/_original/hyperbolic-image-generation-api-openapi.yml",
+   "openapi/_original/hyperbolic-models-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "impossible-cloud",
+  "specs": [
+   "openapi/_original/impossible-cloud-management-console-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "inception",
+  "specs": [
+   "openapi/_original/inception-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "inferless",
+  "specs": [
+   "openapi/_original/inferless-openapi.yml"
+  ]
+ },
+ {
+  "slug": "inflection",
+  "specs": [
+   "openapi/_original/inflection-openapi.json"
+  ]
+ },
+ {
+  "slug": "jarvislabs",
+  "specs": [
+   "openapi/_original/jarvislabs-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kaito",
+  "specs": [
+   "openapi/_original/kaito-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kimi-ai",
+  "specs": [
+   "openapi/_original/kimi-ai-cn-openapi.json",
+   "openapi/_original/kimi-ai-openapi.json"
+  ]
+ },
+ {
+  "slug": "koyeb",
+  "specs": [
+   "openapi/_original/koyeb-openapi.json"
+  ]
+ },
+ {
+  "slug": "kserve",
+  "specs": [
+   "openapi/_original/kserve-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kubeflow",
+  "specs": [
+   "openapi/_original/kubeflow-openapi.yml"
+  ]
+ },
+ {
+  "slug": "lambda",
+  "specs": [
+   "openapi/_original/lambda-cloud-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "lambda-labs",
+  "specs": [
+   "openapi/_original/lambda-labs-openapi.json"
+  ]
+ },
+ {
+  "slug": "lamini",
+  "specs": [
+   "openapi/_original/lamini-openapi.json"
+  ]
+ },
+ {
+  "slug": "lancedb",
+  "specs": [
+   "openapi/_original/lance-namespace-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "libertai",
+  "specs": [
+   "openapi/_original/libertai-openapi.json",
+   "openapi/_original/libertai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "linode",
+  "specs": [
+   "openapi/_original/linode-api-v4-official-openapi.json",
+   "openapi/_original/linode-api-v4-openapi.yml"
+  ]
+ },
+ {
+  "slug": "llmgateway-io",
+  "specs": [
+   "openapi/_original/llmgateway-io-openapi.json"
+  ]
+ },
+ {
+  "slug": "localai",
+  "specs": [
+   "openapi/_original/localai-api-openapi.yml",
+   "openapi/_original/localai-openapi.json"
+  ]
+ },
+ {
+  "slug": "minimax-ai",
+  "specs": [
+   "openapi/_original/minimax-ai-openapi.json"
+  ]
+ },
+ {
+  "slug": "mistral",
+  "specs": [
+   "openapi/_original/mistral-agents-openapi.yml",
+   "openapi/_original/mistral-audio-transcription-openapi.yml",
+   "openapi/_original/mistral-batch-openapi.yml",
+   "openapi/_original/mistral-chat-completions-openapi.yml",
+   "openapi/_original/mistral-chat-openapi.yml",
+   "openapi/_original/mistral-embeddings-openapi.yml",
+   "openapi/_original/mistral-files-openapi.yml",
+   "openapi/_original/mistral-fim-openapi.yml",
+   "openapi/_original/mistral-fine-tuning-openapi.yml",
+   "openapi/_original/mistral-forge-openapi.yml",
+   "openapi/_original/mistral-models-openapi.yml",
+   "openapi/_original/mistral-moderation-openapi.yml",
+   "openapi/_original/mistral-ocr-openapi.yml"
+  ]
+ },
+ {
+  "slug": "mithril",
+  "specs": [
+   "openapi/_original/mithril-compute-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "modal-com",
+  "specs": [
+   "openapi/_original/modal-dicts-queues-openapi.yml",
+   "openapi/_original/modal-functions-openapi.yml",
+   "openapi/_original/modal-images-openapi.yml",
+   "openapi/_original/modal-sandboxes-openapi.yml",
+   "openapi/_original/modal-schedules-openapi.yml",
+   "openapi/_original/modal-secrets-openapi.yml",
+   "openapi/_original/modal-tokens-openapi.yml",
+   "openapi/_original/modal-volumes-openapi.yml",
+   "openapi/_original/modal-web-endpoints-openapi.yml"
+  ]
+ },
+ {
+  "slug": "modal-labs",
+  "specs": [
+   "openapi/_original/modal-labs-openapi.yml"
+  ]
+ },
+ {
+  "slug": "modelrush",
+  "specs": [
+   "openapi/_original/modelrush-public.openapi.yaml"
+  ]
+ },
+ {
+  "slug": "moveworks-servicenow",
+  "specs": [
+   "openapi/_original/moveworks-servicenow-data-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "multiverse-computing",
+  "specs": [
+   "openapi/_original/multiverse-computing-compactifai-openapi.json",
+   "openapi/_original/multiverse-computing-compactifai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "nexgen-cloud",
+  "specs": [
+   "openapi/_original/nexgen-cloud-ai-studio-openapi.json",
+   "openapi/_original/nexgen-cloud-hyperstack-openapi.json",
+   "openapi/_original/nexgen-cloud-infrahub-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "nixtla",
+  "specs": [
+   "openapi/_original/nixtla-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "novita-ai",
+  "specs": [
+   "openapi/_original/novita-ai-openapi.json"
+  ]
+ },
+ {
+  "slug": "nscale",
+  "specs": [
+   "openapi/_original/nscale-openapi.yml"
+  ]
+ },
+ {
+  "slug": "nvidia-nim",
+  "specs": [
+   "openapi/_original/nvidia-nim-chat-completions-api-openapi.yml",
+   "openapi/_original/nvidia-nim-image-generation-api-openapi.yml",
+   "openapi/_original/nvidia-nim-speech-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "openai",
+  "specs": [
+   "openapi/_original/assistants-openapi-original.yml",
+   "openapi/_original/audio-openapi-original.yml",
+   "openapi/_original/chat-openapi-original.yml",
+   "openapi/_original/completions-openapi-original.yml",
+   "openapi/_original/embeddings-openapi-original.yml",
+   "openapi/_original/files-openapi-original.yml",
+   "openapi/_original/fine-tuning-openapi-original.yml",
+   "openapi/_original/images-openapi-original.yml",
+   "openapi/_original/models-openapi-original.yml",
+   "openapi/_original/openai-audio-openapi.yml",
+   "openapi/_original/openai-chat-completions-openapi.yml",
+   "openapi/_original/openai-embeddings-openapi.yml",
+   "openapi/_original/openai-images-openapi.yml",
+   "openapi/_original/openai-openapi-master-2026-09-23.yml",
+   "openapi/_original/openai-openapi-master-2026-10-12.yml",
+   "openapi/_original/openai-openapi-master.yml",
+   "openapi/_original/threads-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "openpipe",
+  "specs": [
+   "openapi/_original/openpipe-openapi.json"
+  ]
+ },
+ {
+  "slug": "openrelay",
+  "specs": [
+   "openapi/_original/openrelay-openapi.json"
+  ]
+ },
+ {
+  "slug": "overshoot",
+  "specs": [
+   "openapi/_original/overshoot-inference-service.json",
+   "openapi/_original/overshoot-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "overshootai",
+  "specs": [
+   "openapi/_original/overshootai-inference-openapi-original.json",
+   "openapi/_original/overshootai-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "oxen",
+  "specs": [
+   "openapi/_original/oxen-hub-api-openapi-original.json",
+   "openapi/_original/oxen-server-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "paperspace",
+  "specs": [
+   "openapi/_original/paperspace-networking-api-openapi.yml",
+   "openapi/_original/paperspace-storage-api-openapi.yml",
+   "openapi/_original/paperspace-team-auth-api-openapi.yml",
+   "openapi/_original/paperspace-templates-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "parasail-ai",
+  "specs": [
+   "openapi/_original/parasail-batch-api-openapi.yml",
+   "openapi/_original/parasail-dedicated-api-openapi.yml",
+   "openapi/_original/parasail-inference-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "perplexity",
+  "specs": [
+   "openapi/_original/perplexity-decisions-openapi-original.json",
+   "openapi/_original/perplexity-openapi.json"
+  ]
+ },
+ {
+  "slug": "phala",
+  "specs": [
+   "openapi/_original/phala-cloud-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "poolside-ai",
+  "specs": [
+   "openapi/_original/poolside-ai-openapi.json"
+  ]
+ },
+ {
+  "slug": "positron",
+  "specs": [
+   "openapi/_original/positron-admin-openapi.yml",
+   "openapi/_original/positron-inference-openapi.json",
+   "openapi/_original/positron-inference-openapi.yml"
+  ]
+ },
+ {
+  "slug": "predibase",
+  "specs": [
+   "openapi/_original/predibase-openapi.yml"
+  ]
+ },
+ {
+  "slug": "prime-intellect",
+  "specs": [
+   "openapi/_original/prime-intellect-compute-api-openapi.yml",
+   "openapi/_original/prime-intellect-evaluations-api-openapi.yml",
+   "openapi/_original/prime-intellect-platform-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "priorlabs",
+  "specs": [
+   "openapi/_original/priorlabs-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "pruna-ai",
+  "specs": [
+   "openapi/_original/pruna-ai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "quantcdn",
+  "specs": [
+   "openapi/_original/quantcdn-openapi.yml"
+  ]
+ },
+ {
+  "slug": "qubrid-ai",
+  "specs": [
+   "openapi/_original/qubrid-ai-compute-openapi.yml",
+   "openapi/_original/qubrid-ai-fine-tuning-openapi.yml",
+   "openapi/_original/qubrid-ai-inference-openapi.yml",
+   "openapi/_original/qubrid-ai-rag-openapi.yml"
+  ]
+ },
+ {
+  "slug": "qwen",
+  "specs": [
+   "openapi/_original/qwen-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ray",
+  "specs": [
+   "openapi/_original/ray-openapi.yml"
+  ]
+ },
+ {
+  "slug": "recraft-ai",
+  "specs": [
+   "openapi/_original/recraft-images-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "reka",
+  "specs": [
+   "openapi/_original/reka-openapi.yml"
+  ]
+ },
+ {
+  "slug": "relace",
+  "specs": [
+   "openapi/_original/relace-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "replicate",
+  "specs": [
+   "openapi/_original/replicate-openapi.yml"
+  ]
+ },
+ {
+  "slug": "rightnow",
+  "specs": [
+   "openapi/_original/rightnow-openapi.json"
+  ]
+ },
+ {
+  "slug": "roboflow",
+  "specs": [
+   "openapi/_original/roboflow-inference-openapi.json"
+  ]
+ },
+ {
+  "slug": "routerplex",
+  "specs": [
+   "openapi/_original/routerplex-inference-openapi.json"
+  ]
+ },
+ {
+  "slug": "runai",
+  "specs": [
+   "openapi/_original/runai-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "runcrate",
+  "specs": [
+   "openapi/_original/runcrate-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "runpod",
+  "specs": [
+   "openapi/_original/runpod-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sahara-ai",
+  "specs": [
+   "openapi/_original/sahara-ai-compute-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sail",
+  "specs": [
+   "openapi/_original/sail-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "sail-research",
+  "specs": [
+   "openapi/_original/sail-research-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "sakura-internet",
+  "specs": [
+   "openapi/_original/addon-api.yaml",
+   "openapi/_original/ai-engine-inference-api.yaml",
+   "openapi/_original/ai-engine-rag-api.yaml",
+   "openapi/_original/apigw-api.yaml",
+   "openapi/_original/apprun-dedicated-api.yaml",
+   "openapi/_original/apprun-shared-api.yaml",
+   "openapi/_original/eventbus-api.yaml",
+   "openapi/_original/iam-api.yaml",
+   "openapi/_original/monitoring-suite-api.yaml",
+   "openapi/_original/networking-suite-api.yaml",
+   "openapi/_original/nosql-api.yaml",
+   "openapi/_original/objectstorage-api.yaml",
+   "openapi/_original/phy-api-original-swagger.json",
+   "openapi/_original/sakura-internet-addon-openapi.yml",
+   "openapi/_original/sakura-internet-ai-engine-inference-openapi.yml",
+   "openapi/_original/sakura-internet-ai-engine-rag-openapi.yml",
+   "openapi/_original/sakura-internet-apigw-openapi.yml",
+   "openapi/_original/sakura-internet-apprun-dedicated-openapi.yml",
+   "openapi/_original/sakura-internet-apprun-shared-openapi.yml",
+   "openapi/_original/sakura-internet-eventbus-openapi.yml",
+   "openapi/_original/sakura-internet-iam-openapi.yml",
+   "openapi/_original/sakura-internet-monitoring-suite-openapi.yml",
+   "openapi/_original/sakura-internet-networking-suite-openapi.yml",
+   "openapi/_original/sakura-internet-nosql-openapi.yml",
+   "openapi/_original/sakura-internet-objectstorage-openapi.yml",
+   "openapi/_original/sakura-internet-phy-openapi.yml",
+   "openapi/_original/sakura-internet-security-control-openapi.yml",
+   "openapi/_original/sakura-internet-security-encryption-openapi.yml",
+   "openapi/_original/sakura-internet-seg-openapi.yml",
+   "openapi/_original/sakura-internet-simple-notification-openapi.yml",
+   "openapi/_original/sakura-internet-simplemq-openapi.yml",
+   "openapi/_original/sakura-internet-simplemq-sacloud-openapi.yml",
+   "openapi/_original/sakura-internet-workflows-openapi.yml",
+   "openapi/_original/security-control-api.yaml",
+   "openapi/_original/security-encryption-api.yaml",
+   "openapi/_original/seg-api.yaml",
+   "openapi/_original/simple-notification-api.yaml",
+   "openapi/_original/simplemq-api.yaml",
+   "openapi/_original/simplemq-sacloud-api.yaml",
+   "openapi/_original/workflows-api.yaml"
+  ]
+ },
+ {
+  "slug": "salad-transcription-api",
+  "specs": [
+   "openapi/_original/salad-transcription-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sambanova-systems",
+  "specs": [
+   "openapi/_original/sambanova-systems-agents-openapi-original.yml",
+   "openapi/_original/sambanova-systems-cloud-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "scalable-inference-serving",
+  "specs": [
+   "openapi/_original/kserve-open-inference-protocol-openapi.yml"
+  ]
+ },
+ {
+  "slug": "secton-api",
+  "specs": [
+   "openapi/_original/secton-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "seekr",
+  "specs": [
+   "openapi/_original/seekr-agents-openapi-original.json",
+   "openapi/_original/seekr-agents-openapi.json",
+   "openapi/_original/seekr-explainability-openapi-original.json",
+   "openapi/_original/seekr-explainability-openapi.json",
+   "openapi/_original/seekr-llm-training-openapi-original.json",
+   "openapi/_original/seekr-llm-training-openapi.json",
+   "openapi/_original/seekr-serving-openapi-original.json",
+   "openapi/_original/seekr-serving-openapi.json"
+  ]
+ },
+ {
+  "slug": "segmind",
+  "specs": [
+   "openapi/_original/segmind-openapi.yml"
+  ]
+ },
+ {
+  "slug": "seldon",
+  "specs": [
+   "openapi/_original/seldon-enterprise-platform-api-openapi.yml",
+   "openapi/_original/seldon-inference-api-v2-openapi.yml",
+   "openapi/_original/seldon-wrapper-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "seltz",
+  "specs": [
+   "openapi/_original/seltz-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "servghost-agent-api",
+  "specs": [
+   "openapi/_original/servghost-agent-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "sfcompute",
+  "specs": [
+   "openapi/_original/sfcompute-openapi.yml"
+  ]
+ },
+ {
+  "slug": "shadeform",
+  "specs": [
+   "openapi/_original/shadeform-openapi.yml"
+  ]
+ },
+ {
+  "slug": "siliconflow",
+  "specs": [
+   "openapi/_original/siliconflow-openapi.yml"
+  ]
+ },
+ {
+  "slug": "simplismart",
+  "specs": [
+   "openapi/_original/simplismart-deepseek-r1-qwen-32b-openapi.yml",
+   "openapi/_original/simplismart-devstral-small-openapi.yml",
+   "openapi/_original/simplismart-flux-dev-openapi.yml",
+   "openapi/_original/simplismart-flux-jobs-list-openapi.yml",
+   "openapi/_original/simplismart-flux-post-training-openapi.yml",
+   "openapi/_original/simplismart-flux-training-openapi.yml",
+   "openapi/_original/simplismart-gemma3-27b-openapi.yml",
+   "openapi/_original/simplismart-gemma3-4b-openapi.yml",
+   "openapi/_original/simplismart-job-by-request-openapi.yml",
+   "openapi/_original/simplismart-llama-3.3-70b-openapi.yml",
+   "openapi/_original/simplismart-llama-4-maverick-17b-openapi.yml",
+   "openapi/_original/simplismart-llama-8b-openapi.yml",
+   "openapi/_original/simplismart-llm-jobs-list-openapi.yml",
+   "openapi/_original/simplismart-llm-metrics-openapi.yml",
+   "openapi/_original/simplismart-llm-training-openapi.yml",
+   "openapi/_original/simplismart-mixtral-8x7b-openapi.yml",
+   "openapi/_original/simplismart-qwen-32b-openapi.yml",
+   "openapi/_original/simplismart-whisper-v2-openapi.yml",
+   "openapi/_original/simplismart-whisper-v3-openapi.yml"
+  ]
+ },
+ {
+  "slug": "spectro-cloud",
+  "specs": [
+   "openapi/_original/spectro-cloud-edge-management-openapi.json",
+   "openapi/_original/spectro-cloud-palette-openapi.json",
+   "openapi/_original/spectrocloud-palette.yaml"
+  ]
+ },
+ {
+  "slug": "speko",
+  "specs": [
+   "openapi/_original/speko-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "standard-compute",
+  "specs": [
+   "openapi/_original/standard-compute-openapi.json"
+  ]
+ },
+ {
+  "slug": "startree-cortexdata",
+  "specs": [
+   "openapi/_original/startree-cortexdata-query-openapi.json"
+  ]
+ },
+ {
+  "slug": "strand-ai",
+  "specs": [
+   "openapi/_original/strand-ai-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "superb-ai",
+  "specs": [
+   "openapi/_original/superb-ai-mlops-platform-openapi.json"
+  ]
+ },
+ {
+  "slug": "sutra-ai",
+  "specs": [
+   "openapi/_original/sutra-ai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "taalas",
+  "specs": [
+   "openapi/_original/taalas-api-openapi-original.json",
+   "openapi/_original/taalas-api-v1-openapi-original.json",
+   "openapi/_original/taalas-inference-v1-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "targon",
+  "specs": [
+   "openapi/_original/targon-openapi.yml"
+  ]
+ },
+ {
+  "slug": "telnyx",
+  "specs": [
+   "openapi/_original/telnyx-openapi.json",
+   "openapi/_original/telnyx-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tensordock",
+  "specs": [
+   "openapi/_original/tensordock-marketplace-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tensorflow",
+  "specs": [
+   "openapi/_original/tensorflow-serving-openapi.yml"
+  ]
+ },
+ {
+  "slug": "textcortex",
+  "specs": [
+   "openapi/_original/textcortex-openapi.json"
+  ]
+ },
+ {
+  "slug": "thehiveryiq-com",
+  "specs": [
+   "openapi/_original/thehiveryiq-com-hivecompute-openapi.json",
+   "openapi/_original/thehiveryiq-com-hivecompute-openapi.yml",
+   "openapi/_original/thehiveryiq-com-hivemorph-openapi.json",
+   "openapi/_original/thehiveryiq-com-hivemorph-openapi.yml"
+  ]
+ },
+ {
+  "slug": "thundercompute",
+  "specs": [
+   "openapi/_original/thundercompute-openapi.yml"
+  ]
+ },
+ {
+  "slug": "together-ai",
+  "specs": [
+   "openapi/_original/together-ai-clusters-remediation-openapi.yml",
+   "openapi/_original/together-ai-openapi.yml",
+   "openapi/_original/together-ai-tcloud-openapi.yml"
+  ]
+ },
+ {
+  "slug": "triton",
+  "specs": [
+   "openapi/_original/triton-http-rest-openapi.yml",
+   "openapi/_original/triton-metrics-openapi.yml"
+  ]
+ },
+ {
+  "slug": "turbopuffer",
+  "specs": [
+   "openapi/_original/turbopuffer-openapi.yml"
+  ]
+ },
+ {
+  "slug": "txt",
+  "specs": [
+   "openapi/_original/txt-dottxt-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "typesafe-ai",
+  "specs": [
+   "openapi/_original/typesafe-ai-openapi.json",
+   "openapi/_original/typesafe-ai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "understudy-labs",
+  "specs": [
+   "openapi/_original/understudy-labs-desktop-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "unify-ai",
+  "specs": [
+   "openapi/_original/unify-ai-universal-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "vast-ai",
+  "specs": [
+   "openapi/_original/vast-ai-openapi.json"
+  ]
+ },
+ {
+  "slug": "vllm",
+  "specs": [
+   "openapi/_original/vllm-openapi.yml"
+  ]
+ },
+ {
+  "slug": "voltage-park",
+  "specs": [
+   "openapi/_original/voltage-park-openapi.yml"
+  ]
+ },
+ {
+  "slug": "volumez",
+  "specs": [
+   "openapi/_original/volumez-api-openapi-original.yaml"
+  ]
+ },
+ {
+  "slug": "vultr",
+  "specs": [
+   "openapi/_original/vultr-iam-management-api-openapi.yml",
+   "openapi/_original/vultr-iam-management-api.yml",
+   "openapi/_original/vultr-iam-openapi.yml",
+   "openapi/_original/vultr-openapi.yml",
+   "openapi/_original/vultr-schema-openapi.json",
+   "openapi/_original/vultr-v2-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "writer",
+  "specs": [
+   "openapi/_original/writer-openapi.yml"
+  ]
+ },
+ {
+  "slug": "xai",
+  "specs": [
+   "openapi/_original/xai-openapi.json"
+  ]
+ },
+ {
+  "slug": "yutori",
+  "specs": [
+   "openapi/_original/yutori-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "zhipu-ai",
+  "specs": [
+   "openapi/_original/zhipu-ai-openapi.json"
+  ]
+ }
+]
